@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya&display=swap');
+
+body {
+  cursor: none;
+  font-family: 'Alegreya', serif; 
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}
+
+#background {
+  background-color: black;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+#sample-text {
+  background-color: white;
+  border-radius: 10px;
+  max-width: 50%;
+  padding: 10px 20px;
+}
+
+#cursor {
+  background-color: black;
+  border-radius: 25px;
+  height: 50px;
+  width: 50px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  filter: invert(1);
+  mix-blend-mode: difference;
+}
